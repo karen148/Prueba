@@ -11,12 +11,12 @@ const useStyle = makeStyles((theme) => ({
     padding: "0px 50px",
     maxWidth: 1270,
     width: "80%",
-    zIndex: 10
+    zIndex: 10,
   },
   img: {
     width: "40px",
     heigth: "40px",
-    marginTop: "8px"
+    marginTop: "8px",
   },
   order: {
     listStyleType: "none",
@@ -42,17 +42,17 @@ const useStyle = makeStyles((theme) => ({
     borderColor: theme.palette.primary.main,
   },
   icono: {
-    marginBottom: "-5px"
+    marginBottom: "-5px",
   },
   iconoBolsa: {
     marginBottom: "-20px",
-    fontSize: "19px"
+    fontSize: "19px",
   },
   contoador: {
     marginLeft: "20px",
     marginTop: "-15px",
-    fontSize: 13
-  }
+    fontSize: 13,
+  },
 }));
 
 export default useStyle;

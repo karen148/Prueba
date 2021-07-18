@@ -1,6 +1,9 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyle = makeStyles((theme) => ({
+  bajo:{
+    marginBottom: 50
+  },
   estrella: {
     color: theme.palette.azul.main,
     textAlign: "right",

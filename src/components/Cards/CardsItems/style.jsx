@@ -5,15 +5,20 @@ const useStyle = makeStyles((theme) => ({
     borderRadius: 30,
     padding: "5px 20px",
     backgroundColor: "white",
+    display: "fixed",
+    marginTop: 20,
+    height: "90%",
+    width: 255,
   },
   contenedor: {
     position: "relative",
+    display: "fixed",
+    width: 251,
+    height: 171,
+    zIndex: 20,
+    borderRadius: 15,
     "&:hover": {
-      zIndex: 80,
-      backgroundColor: "red",
-      marginTop: 5,
-      zIndex: 10,
-      transition: "opacity 2s",
+      backgroundColor: theme.palette.primary.main,
     },
   },
   img: {
@@ -23,31 +28,18 @@ const useStyle = makeStyles((theme) => ({
     marginTop: 15,
     "&:hover": {
       zIndex: 2,
-      filter: "grayscale(100%)",
-      marginTop: 5,
+      position: "absolute",
       zIndex: 10,
-      transition: "opacity 2s",
+      marginTop: 5,
+      transition: "opacity 1s",
+      opacity: "0.2",
     },
   },
   text: {
-    marginLeft: 20,
+    marginTop: -10,
   },
-  titulo: {
-    marginTop: 25,
-  },
-  fondo: {
-    backgroundImage: "url(assets/img/product.jpg)",
-    width: "100%",
-    height: 200,
-    borderRadius: 30,
-  },
-  text2: {
-    marginBottom: 50,
-    marginLeft: 20,
-  },
-  titulo2: {
-    marginTop: "-5px",
-    marginLeft: 20,
+  altura: {
+    marginTop: 20,
   },
 }));
 

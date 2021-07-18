@@ -8,8 +8,9 @@ import { Container, Grid } from "@material-ui/core";
 const Layaout = ({ children }) => {
   const classes = useStyle();
   return (
-    <Container  maxWidth="lg" className={classes.root}>
+    <div className={classes.root}>
       <Box className={classes.content}>
+      <Box className={classes.blanco}></Box>
         <Menu />
         <Grid
           container
@@ -23,7 +24,7 @@ const Layaout = ({ children }) => {
           </Grid>
         </Grid>
       </Box>
-    </Container>
+    </div>
   );
 };
 

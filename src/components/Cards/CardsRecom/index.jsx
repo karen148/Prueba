@@ -1,20 +1,23 @@
 import React from "react";
-import useStyle from "./style";
+import PropTypes from "prop-types";
 import CardsModel from "../CardsModel";
 import theme from "./../../../theme";
 import CardsItems from "../CardsItems";
 
-const CardsRecom = () => {
-  const classes = useStyle();
+const CardsRecom = ({ items }) => {
   return (
     <CardsModel
       titulo={"We also recommend the following products"}
       color={theme.palette.menu.main}
     >
-      <CardsItems />
+      <CardsItems items={items}/>
       <br></br>
     </CardsModel>
   );
+};
+
+CardsRecom.propType = {
+  items: PropTypes.array,
 };
 
 export default CardsRecom;
