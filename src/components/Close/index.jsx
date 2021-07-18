@@ -7,12 +7,12 @@ const Close = () => {
   const classes = useStyle();
   return (
     <Grid container direction="row" justifyContent="center" alignItems="center">
-      <Grid item md={10} xs={12} style={{ textAlign: "center" }}>
-        <hr style={{}}></hr>
+      <Grid item md={10} xs={8} style={{ textAlign: "center" }}>
+        <Divider />
       </Grid>
-      <Grid item md={2} xs={12} style={{ textAlign: "right" }}>
+      <Grid item md={2} xs={2} style={{ textAlign: "right" }}>
         <Button className={classes.boton}>
-          CLOSE <CancelIcon className={classes.icono}/>
+          CLOSE <CancelIcon className={classes.icono} />
         </Button>
       </Grid>
     </Grid>

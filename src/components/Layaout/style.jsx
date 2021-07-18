@@ -8,6 +8,9 @@ const useStyle = makeStyles((theme) => ({
         paddingRight: "0px !important",
       },
     },
+    "& .MuiDivider-root": {
+      backgroundColor: "rgb(237 237 237)",
+    },
   },
   content: {
     display: "flex",

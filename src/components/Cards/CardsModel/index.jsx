@@ -3,12 +3,12 @@ import useStyle from "./style";
 import { Box, Divider, Grid } from "@material-ui/core";
 import PropTypes from "prop-types";
 
-const CardsModel = ({ titulo, children }) => {
+const CardsModel = ({ titulo, children, color }) => {
   const classes = useStyle();
   return (
     <Grid container direction="row" justifyContent="center" alignItems="center">
       <Grid item md={12} xs={12} style={{ marginTop: "80px" }}>
-        <Box boxShadow={1} className={classes.tarjeta}>
+        <Box boxShadow={1} className={classes.tarjeta} bgcolor={color}>
           <Grid
             container
             direction="row"
@@ -16,7 +16,7 @@ const CardsModel = ({ titulo, children }) => {
             alignItems="center"
           >
             <Grid item md={12} xs={12} style={{ textAlign: "left" }}>
-              <h1>{titulo}</h1>
+              <h2>{titulo}</h2>
               <Divider />
             </Grid>
             <Grid item md={12} xs={12} style={{ textAlign: "left" }}>
@@ -32,6 +32,7 @@ const CardsModel = ({ titulo, children }) => {
 CardsModel.propTypes = {
   titulo: PropTypes.string,
   children: PropTypes.array,
+  color: PropTypes.string,
 };
 
 export default CardsModel;

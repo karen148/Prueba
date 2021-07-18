@@ -19,6 +19,7 @@ import Logos from "../../components/Logos";
 import CardsPreguntas from "../../components/Cards/CardsPreguntas";
 import CardsProduct from "../../components/Cards/CardsProduct";
 import CardsFAQ from "../../components/Cards/CardsFAQ";
+import CardsRecom from "../../components/Cards/CardsRecom";
 
 const Cloud = () => {
   const classes = useStyle();
@@ -71,6 +72,26 @@ const Cloud = () => {
       titulo: "Daniel Frick, CEO Witzenmann",
       descripcion:
         "Hafn-IT manages our services. Our telephony teams too. Since then, we have had less work and can quickly add or cancel services.",
+    },
+  ];
+  const pregunta = [
+    {
+      id: 1,
+      pregunta: "Can the service be combined with other team services?",
+      contenido:
+        "I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    },
+    {
+      id: 2,
+      pregunta: "How do updates work?",
+      contenido:
+        "I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    },
+    {
+      id: 3,
+      pregunta: "Why do I have to have this if I still use Lync?",
+      contenido:
+        "I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     },
   ];
   return (
@@ -145,7 +166,10 @@ const Cloud = () => {
           <CardsProduct foto={foto} />
         </Grid>
         <Grid item md={12} xs={12}>
-          <CardsFAQ />
+          <CardsFAQ preguntas={pregunta} />
+        </Grid>
+        <Grid item md={12} xs={12}>
+          <CardsRecom />
         </Grid>
       </Grid>
     </Layaout>

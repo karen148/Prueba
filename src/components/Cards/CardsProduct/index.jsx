@@ -8,7 +8,7 @@ import Fotos from "../../Fotos";
 const CardsProduct = ({ foto }) => {
   const classes = useStyle();
   return (
-    <CardsModel titulo={"Product Pitch"}>
+    <CardsModel titulo={"Product Pitch"} color="white">
       <Grid
         container
         direction="row"
@@ -24,7 +24,6 @@ const CardsProduct = ({ foto }) => {
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullscreen
             style={{borderRadius: "30px"}}
           ></iframe>
         </Grid>

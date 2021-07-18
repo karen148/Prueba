@@ -7,7 +7,7 @@ import img from "./../../../assets/img/product_2.jpg";
 const CardsPreguntas = () => {
   const classes = useStyle();
   return (
-    <CardsModel titulo={"Why, How, What"}>
+    <CardsModel titulo={"Why, How, What"} color="white">
       <Grid
         container
         direction="row"
@@ -26,11 +26,7 @@ const CardsPreguntas = () => {
             operation
           </p>
           <br></br>
-          <img
-            src={img}
-            alt="Imagen"
-            className={(classes.fondo)}
-          />
+          <img src={img} alt="Imagen" className={classes.fondo} />
         </Grid>
         <Grid item xs={12} md={6} className={classes.titulo}>
           <h3 className={classes.text}>How?</h3>
