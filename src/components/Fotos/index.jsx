@@ -14,7 +14,7 @@ const Fotos = ({ foto }) => {
               <img src={item.img} alt="Foto" className={classes.foto} />
             </Grid>
             <Grid item xs={10} md={10}>
-              <h5 className={classes.text}>{item.titulo}</h5>
+              <h3 className={classes.text}>{item.titulo}</h3>
               <p className={classes.altura}>{item.descripcion}</p>
             </Grid>
             <Grid item xs={12} md={12} className={classes.linea}>

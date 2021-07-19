@@ -30,7 +30,7 @@ const CardsItems = ({ items }) => {
                   </div>
                 </Grid>
                 <Grid item md={12} xs={12} style={{ textAlign: "left" }}>
-                  <h4>{it.titulo}</h4>
+                  <h2>{it.titulo}</h2>
                 </Grid>
                 <Grid item md={12} xs={12} style={{ textAlign: "left" }}>
                   <p className={classes.text}>{it.contenido}</p>

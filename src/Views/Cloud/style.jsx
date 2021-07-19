@@ -58,6 +58,11 @@ const useStyle = makeStyles((theme) => ({
       backgroundColor: theme.palette.celeste.main,
     },
   },
+  "@media (max-width: 1024px)": {
+    contenedor: {
+      paddingLeft: "15px",
+    },
+  },
 }));
 
 export default useStyle;

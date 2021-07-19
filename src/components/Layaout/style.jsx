@@ -4,7 +4,7 @@ const useStyle = makeStyles((theme) => ({
   root: {
     maxWidth: 1360,
     padding: "0px 109px",
-    fontFamily: theme.typography.fontFamily,
+    fontFamily: "Source Sans Pro",
     "& .MuiDivider-root": {
       backgroundColor: "rgb(237 237 237)",
     },

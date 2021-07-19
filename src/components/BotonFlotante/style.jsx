@@ -12,7 +12,7 @@ const useStyle = makeStyles(() => ({
     paddinTop: 20,
     textAlign: "center",
     borderRadius: 30,
-    boxShadow: "0px 0px 5x 0px black",
+    boxShadow: "0px 0px 5x 1px black",
     cursor: "pointer",
     transition: "all 300ms ease",
     transform: "scale(0)",
