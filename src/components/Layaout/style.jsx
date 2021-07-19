@@ -6,6 +6,7 @@ const useStyle = makeStyles(() => ({
     marginLeft: "auto",
     marginRight: "auto",
     fontFamily: "Source Sans Pro",
+    width: "100%",
     "& .MuiDivider-root": {
       backgroundColor: "rgb(237 237 237)",
     },
@@ -28,15 +29,14 @@ const useStyle = makeStyles(() => ({
   "@media (max-width: 1360px)": {
     root: {
       padding: "0px 0px",
+      maxWidth: 1310,
     },
   },
-  "@media (max-width: 1366px)": {
-    root: {
-      maxWidth: 1190,
-      marginLeft: "auto",
-      marginRight: "auto",
-    },
-  },
+  // "@media (min-width: 1360px)": {
+  //   root: {
+  //     maxWidth: 1310,
+  //   },
+  // },
   "@media (max-width: 600px)": {
     root: {
       padding: "0px 0px",

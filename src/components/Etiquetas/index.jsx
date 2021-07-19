@@ -5,6 +5,14 @@ import Grid from "@material-ui/core/Grid";
 import LocalOfferIcon from "@material-ui/icons/LocalOffer";
 import Button from "@material-ui/core/Button";
 
+/**
+ * @function
+ * @name Etiquetas
+ * @description Son los botones que salen debajo del subtítulo principal por ejemplo(The as-is analysis for cost evaluation),
+ * la información de los botones sé en encuentra en el array Etiquetas el cual se encuentra en el archivo data.jsx en la carpeta Cloud
+ * @param {array} etiquetas 
+ * @returns 
+ */
 const Etiquetas = ({ etiquetas }) => {
   const classes = useStyle();
   return (

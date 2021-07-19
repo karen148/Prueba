@@ -2,7 +2,12 @@ import React from "react";
 import useStyle from "./style";
 import { Button, Divider, Grid } from "@material-ui/core";
 import CancelIcon from "@material-ui/icons/Cancel";
-
+/**
+ * @function
+ * @name Close
+ * @description Es el botón que se encuentra debajo del nav o menú de la página
+ * @returns 
+ */
 const Close = () => {
   const classes = useStyle();
   return (

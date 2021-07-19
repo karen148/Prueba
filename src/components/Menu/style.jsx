@@ -54,7 +54,7 @@ const useStyle = makeStyles((theme) => ({
     marginTop: "-15px",
     fontSize: 13,
   },
-  "@media (max-width: 1024px)": {
+  "@media (max-width: 1496px)": {
     root: {
       width: "95%",
     },

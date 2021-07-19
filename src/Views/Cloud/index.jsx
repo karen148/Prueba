@@ -14,7 +14,13 @@ import CardsFAQ from "../../components/Cards/CardsFAQ";
 import CardsRecom from "../../components/Cards/CardsRecom";
 import { Etiqueta, foto, imagen, items, pregunta } from "./data";
 import BotonFlotante from "../../components/BotonFlotante";
-
+/**
+ * @function
+ * @name Cloud
+ * @description Es una vista que recibe componentes con sus correspondientes datas, las cuales los encontrara en el archivo data.jsx
+ * en la misma carpeta Cloud
+ * @returns
+ */
 const Cloud = () => {
   const classes = useStyle();
 
@@ -99,7 +105,7 @@ const Cloud = () => {
           <CardsRecom items={items} />
         </Grid>
       </Grid>
-      <BotonFlotante/>
+      <BotonFlotante />
     </Layaout>
   );
 };

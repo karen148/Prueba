@@ -2,7 +2,14 @@ import React, { Fragment } from "react";
 import useStyle from "./style";
 import { Divider, Grid } from "@material-ui/core";
 import PropTypes from "prop-types";
-
+/**
+ * @function
+ * @name Fotos
+ * @description Son las fotos que salen en el componente CardsProduct (Product Pitch), se recorre el array fotos el cual 
+ * se encuentra en el archivo data.jsx en la carpeta Cloud
+ * @param {array} fotos 
+ * @returns 
+ */
 const Fotos = ({ foto }) => {
   const classes = useStyle();
   return (

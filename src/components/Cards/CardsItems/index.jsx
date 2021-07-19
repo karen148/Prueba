@@ -2,7 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 import useStyle from "./style";
 import { Box, Grid } from "@material-ui/core";
-
+/**
+ * @function
+ * @name CardsItems
+ * @description Son las tarjetas que se encuentra en la vista CardsRecom (We also recommend the following products) el array que
+ * suple la información del componente se encuentra en data.jsx se llama items, cada tarjeta tiene su maquetación con Grid (div)
+ * @param {array} items
+ * @returns
+ */
 const CardsItems = ({ items }) => {
   const classes = useStyle();
   console.log(items);
@@ -23,7 +30,6 @@ const CardsItems = ({ items }) => {
                 direction="row"
                 justifyContent="center"
                 alignItems="center"
-                
               >
                 <Grid item md={12} xs={12} style={{ textAlign: "left" }}>
                   <div className={classes.contenedor}>

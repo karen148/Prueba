@@ -5,7 +5,13 @@ import LocalMallOutlinedIcon from "@material-ui/icons/LocalMallOutlined";
 import ApartmentOutlinedIcon from "@material-ui/icons/ApartmentOutlined";
 import useStyle from "./style";
 import img from "./../../assets/img/icono.png";
-
+/**
+ * @function
+ * @name Menu
+ * @description Es el nav de color gris, se crea por defecto la maquetación del menú y se recorre con el array llamado menú
+ * para que por defecto acomode toda la información del nav.
+ * @returns
+ */
 const Menu = () => {
   const classes = useStyle();
   const menu = [
