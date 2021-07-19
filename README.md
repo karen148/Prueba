@@ -1,4 +1,4 @@
-# Antes de recorrer el proyecto por instale todas los paquetes
+# Antes de recorrer el proyecto por favor instale todas los paquetes
 
 ### `npm install`
 
