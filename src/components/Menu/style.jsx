@@ -21,6 +21,7 @@ const useStyle = makeStyles((theme) => ({
   order: {
     listStyleType: "none",
     overflow: "hidden",
+    textAlign: "center",
   },
   menu: {
     textDecoration: "none",
@@ -56,6 +57,21 @@ const useStyle = makeStyles((theme) => ({
   "@media (max-width: 1024px)": {
     root: {
       width: "95%",
+    },
+  },
+  "@media (max-width: 500px)": {
+    menu: {
+      fontSize: 13,
+    },
+    icono: {
+      fontSize: 13,
+      marginBottom: "-2px",
+    },
+    link: {
+      padding: 8,
+    },
+    order: {
+      marginLeft: "-20px"
     },
   },
 }));

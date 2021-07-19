@@ -33,6 +33,8 @@ const useStyle = makeStyles(() => ({
   "@media (max-width: 1366px)": {
     root: {
       maxWidth: 1190,
+      marginLeft: "auto",
+      marginRight: "auto",
     },
   },
   "@media (max-width: 600px)": {

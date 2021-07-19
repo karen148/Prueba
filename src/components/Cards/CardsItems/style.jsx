@@ -39,14 +39,6 @@ const useStyle = makeStyles((theme) => ({
   altura: {
     marginTop: 20,
   },
-  "@media (min-width: 1024px)": {
-    tarjeta: {
-      width: "86%",
-    },
-    img: {
-      width: "81%",
-    }
-  },
 }));
 
 export default useStyle;

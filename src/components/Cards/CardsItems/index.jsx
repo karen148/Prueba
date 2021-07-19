@@ -16,14 +16,14 @@ const CardsItems = ({ items }) => {
     >
       {items?.map((it, index) => {
         return (
-          <Grid item xs={12} md={3} key={index + 1}>
+          <Grid item xs={12} md={4} key={index + 1}>
             <Box boxShadow={1} className={classes.tarjeta}>
               <Grid
                 container
                 direction="row"
                 justifyContent="center"
                 alignItems="center"
-                spacing={2}
+                
               >
                 <Grid item md={12} xs={12} style={{ textAlign: "left" }}>
                   <div className={classes.contenedor}>
