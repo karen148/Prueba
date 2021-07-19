@@ -53,6 +53,11 @@ const useStyle = makeStyles((theme) => ({
     marginTop: "-15px",
     fontSize: 13,
   },
+  "@media (max-width: 1024px)": {
+    root: {
+      width: "95%",
+    },
+  },
 }));
 
 export default useStyle;

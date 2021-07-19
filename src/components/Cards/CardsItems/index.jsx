@@ -23,6 +23,7 @@ const CardsItems = ({ items }) => {
                 direction="row"
                 justifyContent="center"
                 alignItems="center"
+                spacing={2}
               >
                 <Grid item md={12} xs={12} style={{ textAlign: "left" }}>
                   <div className={classes.contenedor}>

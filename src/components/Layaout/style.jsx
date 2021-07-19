@@ -1,9 +1,10 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-const useStyle = makeStyles((theme) => ({
+const useStyle = makeStyles(() => ({
   root: {
     maxWidth: 1360,
-    padding: "0px 109px",
+    marginLeft: "auto",
+    marginRight: "auto",
     fontFamily: "Source Sans Pro",
     "& .MuiDivider-root": {
       backgroundColor: "rgb(237 237 237)",
@@ -27,6 +28,11 @@ const useStyle = makeStyles((theme) => ({
   "@media (max-width: 1360px)": {
     root: {
       padding: "0px 0px",
+    },
+  },
+  "@media (max-width: 1366px)": {
+    root: {
+      maxWidth: 1190,
     },
   },
   "@media (max-width: 600px)": {
