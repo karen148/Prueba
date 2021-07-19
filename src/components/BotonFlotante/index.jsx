@@ -9,7 +9,7 @@ const BotonFlotante = () => {
 
     if (currentScroll > 0) {
       window.requestAnimationFrame(scrollUp);
-      window.scrollTo(0, currentScroll - currentScroll / 10);
+      window.scrollTo(0, currentScroll - currentScroll / 50);
     }
   };
 
