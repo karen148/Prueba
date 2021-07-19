@@ -1,8 +1,17 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyle = makeStyles((theme) => ({
-  bajo:{
-    marginBottom: 50
+  bajo: {
+    marginBottom: 50,
+  },
+  titulo: {
+    fontSize: 48,
+    color: theme.palette.primary.main,
+  },
+  subtitulo: {
+    marginTop: "-15px",
+    fontSize: 24,
+    color: theme.palette.primary.main,
   },
   estrella: {
     color: theme.palette.azul.main,
@@ -21,6 +30,7 @@ const useStyle = makeStyles((theme) => ({
   text: {
     textAlign: "left",
     color: theme.palette.primary.main,
+    marginBottom: 28,
   },
   contenedor: {
     paddingLeft: "50px",

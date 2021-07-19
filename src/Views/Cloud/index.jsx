@@ -13,10 +13,10 @@ import CardsProduct from "../../components/Cards/CardsProduct";
 import CardsFAQ from "../../components/Cards/CardsFAQ";
 import CardsRecom from "../../components/Cards/CardsRecom";
 import { Etiqueta, foto, imagen, items, pregunta } from "./data";
+import BotonFlotante from "../../components/BotonFlotante";
 
 const Cloud = () => {
   const classes = useStyle();
-  
 
   return (
     <Layaout>
@@ -30,8 +30,10 @@ const Cloud = () => {
           <Close></Close>
         </Grid>
         <Grid item md={12} xs={12}>
-          <h1>HAFN-IT CLOUD CONNECT</h1>
-          <h3>The as-is analysis for cost evaluation</h3>
+          <h1 className={classes.titulo}>HAFN-IT CLOUD CONNECT</h1>
+          <h3 className={classes.subtitulo}>
+            The as-is analysis for cost evaluation
+          </h3>
         </Grid>
         <Grid item md={12} style={{ marginBottom: "100px" }}>
           <Etiquetas etiquetas={Etiqueta} />
@@ -69,9 +71,10 @@ const Cloud = () => {
                   <font className={classes.text2}>excl. VAT</font>
                 </h1>
                 <p className={classes.text}>
-                  <b>Price:</b> Individual offer <b>Duration:</b> 3-7 days
-                  (depending on company size) <b>Billing type:</b> Billing based
-                  on actual expenditure. <b>Contract type:</b> Project order
+                  <b>Price:</b> Individual offer<br></br> <b>Duration:</b> 3-7
+                  days (depending on company size)<br></br> <b>Billing type:</b>{" "}
+                  Billing based on actual expenditure.<br></br>{" "}
+                  <b>Contract type:</b> Project order<br></br>
                 </p>
               </Box>
               <Button className={classes.carrito}>
@@ -93,9 +96,10 @@ const Cloud = () => {
           <CardsFAQ preguntas={pregunta} />
         </Grid>
         <Grid item md={12} xs={12} className={classes.bajo}>
-          <CardsRecom items={items}/>
+          <CardsRecom items={items} />
         </Grid>
       </Grid>
+      <BotonFlotante/>
     </Layaout>
   );
 };

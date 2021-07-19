@@ -25,8 +25,10 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: "Source Sans Pro, sans-serif",
+    fontFamily: "Source Sans Pro,sans-serif",
     fontWeightBold: 900,
+    fontWeightRegular: 400,
+    fontWeightLight: 300,
   },
 });
 

@@ -10,8 +10,8 @@ const CardsItems = ({ items }) => {
     <Grid
       container
       direction="row"
-      justifyContent="left"
-      alignItems="left"
+      justifyContent="flex-start"
+      alignItems="center"
       spacing={2}
     >
       {items?.map((it, index) => {

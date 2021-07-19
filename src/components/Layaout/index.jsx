@@ -29,7 +29,7 @@ const Layaout = ({ children }) => {
 };
 
 Layaout.propTypes = {
-  children: PropTypes.object,
+  children: PropTypes.array,
 };
 
 export default Layaout;

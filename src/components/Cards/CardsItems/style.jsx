@@ -7,7 +7,7 @@ const useStyle = makeStyles((theme) => ({
     backgroundColor: "white",
     display: "fixed",
     marginTop: 20,
-    height: "90%",
+    height: 358,
     width: 255,
   },
   contenedor: {
@@ -15,7 +15,6 @@ const useStyle = makeStyles((theme) => ({
     display: "fixed",
     width: 251,
     height: 171,
-    zIndex: 20,
     borderRadius: 15,
     "&:hover": {
       backgroundColor: theme.palette.primary.main,
@@ -29,7 +28,6 @@ const useStyle = makeStyles((theme) => ({
     "&:hover": {
       zIndex: 2,
       position: "absolute",
-      zIndex: 10,
       marginTop: 5,
       transition: "opacity 1s",
       opacity: "0.2",
